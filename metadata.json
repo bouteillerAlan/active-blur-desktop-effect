@@ -1,0 +1,25 @@
+{
+    "KPackageStructure": "KWin/Effect",
+    "KPlugin": {
+        "Authors": [
+            {
+                "Email": "a2n.dev@pm.me",
+                "Name": "Bouteiller <a2n> Alan"
+            }
+        ],
+        "Category": "Appearance",
+        "Description": "Blur the wallpaper when a windows is active",
+        "EnabledByDefault": false,
+        "Icon": "preferences-system-windows-effect-active-blur",
+        "Id": "kwin4_effect_active_blur",
+        "License": "GPL",
+        "Name": "Active blur wallpaper",
+        "Version": "1",
+        "Website": ""
+    },
+    "X-KDE-Ordering": "60",
+    "X-KDE-PluginKeyword": "kwin4_effect_active_blur",
+    "X-KWin-Config-TranslationDomain": "kwin_effects",
+    "X-Plasma-API": "javascript",
+    "X-Plasma-MainScript": "code/main.js"
+}
